@@ -127,7 +127,7 @@ export default function TranscriptionMonitor() {
             <div className="space-y-4">
               {activityLog.map((log) => (
                 <div key={log.id} className="flex gap-4">
-                  <div className="w-2 h-2 bg-black rounded-full mt-2 flex-shrink-0" />
+                  <div className="w-2 h-2 bg-black rounded-full mt-2 shrink-0" />
                   <div>
                     <p className="text-sm">{log.action}</p>
                     <p className="text-xs text-black/40">
